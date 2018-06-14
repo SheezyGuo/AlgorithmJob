@@ -1,0 +1,5 @@
+﻿  Source.cpp
+d:\projects\cpp\三者取中\三者取中\source.cpp(66): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\projects\cpp\三者取中\三者取中\source.cpp(35): warning C4715: 'quickSort': not all control paths return a value
+d:\projects\cpp\三者取中\三者取中\source.cpp(59): warning C4715: 'middle_of_three': not all control paths return a value
+  三者取中.vcxproj -> D:\Projects\CPP\三者取中\Debug\三者取中.exe

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵乘法", "矩阵乘法\矩阵乘法.vcxproj", "{C7CA7220-85F6-4D7D-B881-1664F62486BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Debug|x64.ActiveCfg = Debug|x64
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Debug|x64.Build.0 = Debug|x64
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Debug|x86.Build.0 = Debug|Win32
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Release|x64.ActiveCfg = Release|x64
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Release|x64.Build.0 = Release|x64
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Release|x86.ActiveCfg = Release|Win32
+		{C7CA7220-85F6-4D7D-B881-1664F62486BB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {659AC790-D2E9-4C53-AB5A-EF5F2E4312ED}
+	EndGlobalSection
+EndGlobal

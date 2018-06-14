@@ -1,0 +1,3 @@
+﻿  Source.cpp
+d:\projects\cpp\二分搜索\二分搜索\source.cpp(40): warning C4715: 'binary_search': not all control paths return a value
+  二分搜索.vcxproj -> D:\Projects\CPP\二分搜索\Debug\二分搜索.exe
