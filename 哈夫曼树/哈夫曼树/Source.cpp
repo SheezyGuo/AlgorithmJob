@@ -45,6 +45,9 @@ void find_min(int step) {
 			min2 = min1;
 			min1 = i;
 		}
+		else if (!used[i] && i != min1 && node_list[i].frequency < node_list[min2].frequency) {
+			min2 = i;
+		}
 	}
 	node_list[NUM + step].frequency = node_list[min1].frequency + node_list[min2].frequency;
 	node_list[NUM + step].left = min1;
@@ -60,7 +63,7 @@ void main(void) {
 	for (int i = 0; i < 2 * NUM - 1; i++) {
 		printf("%d->%f:%d %d\n", i, node_list[i].frequency, node_list[i].left, node_list[i].right);
 	}
-	
+	getchar();
 }
 
 

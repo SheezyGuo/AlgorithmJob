@@ -11,7 +11,7 @@ void set_matrix(int i, int j) {
     if (i == j) cal_steps[i][j] = 0;
     if (i < j && i >= 0 && j < LEN) {
         int kflag = -1;
-        int min_flag = 10000000;
+        int min_flag = INT_MAX;
         for (int k = i + 1; k <= j; k++) {
 			// 从i到j挑间断的位置,位置是从i+1到j,表示在第k个的前边断开
             int temp = cal_steps[i][k] + cal_steps[k+1][j] + matrix_chain[i] * matrix_chain[k+1] * matrix_chain[j+1];
@@ -60,4 +60,5 @@ int main(void) {
         printf("\n");
     }
     print_result(0, LEN - 1);
+	getchar();
 }
