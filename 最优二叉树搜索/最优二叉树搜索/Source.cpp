@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
 #define NUM 5
 double p[NUM] = { 0.15,0.1,0.05,0.1,0.2 };
 double q[NUM + 1] = { 0.05,0.1,0.05,0.05,0.05 ,0.1 };
